@@ -22,6 +22,14 @@ const routes = [
       isFirst: true,
     },
   },
+  {
+    path: "/markdown",
+    component: () => import("@/views/MarkdownView.vue"),
+    meta: {
+      breadcrumb: "Markdown",
+      isFirst: true,
+    },
+  },
 ];
 
 const router = createRouter({

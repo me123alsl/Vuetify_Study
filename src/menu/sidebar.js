@@ -11,6 +11,12 @@ const menuList = [
     to: "/dashboard",
     value: "dashboard",
   },
+  {
+    prependIcon: "mdi-language-markdown",
+    title: "Markdown",
+    to: "/markdown",
+    value: "markdown",
+  },
 ];
 
 export default menuList;

@@ -5,7 +5,8 @@
         rail
         expand-on-hover
         app
-      >
+        permanent
+        >
         <v-list dense density="compact" nav>
           <v-list-item v-for="menu in menus"
             :key="menu.value"
